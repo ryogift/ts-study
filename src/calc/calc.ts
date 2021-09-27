@@ -1,6 +1,6 @@
 class Calc {
-  left: number;
-  right: number;
+  readonly left: number;
+  readonly right: number;
 
   constructor(left: number, right: number) {
     this.left = left;
